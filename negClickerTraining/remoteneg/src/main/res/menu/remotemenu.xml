@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/Start"
+          android:title="Start" />
+ 
+    <item android:id="@+id/TrainANN"
+          android:title="TrainANN" />
+ 
+    <item android:id="@+id/Autonomous"
+          android:title="Autonomous" />
+    
+    <item android:id="@+id/Teleoperate"
+          android:title="Teleoperate" />
+    
+    <item android:id="@+id/Done"
+          android:title="Done" />
+    
+    <item android:id="@+id/Save"
+          android:title="Save Training Set" />
+    
+    <item android:id="@+id/Load"
+          android:title="Load Training Set" />
+    <item android:id="@+id/SaveANN"
+          android:title="Save Network" />
+    
+    <item android:id="@+id/LoadANN"
+          android:title="Load Network" />
+    
+    <item android:id="@+id/Evolve10"
+          android:title="Evolve for 10" />
+
+</menu>
