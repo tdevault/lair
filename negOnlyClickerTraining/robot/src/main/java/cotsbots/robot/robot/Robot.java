@@ -368,7 +368,7 @@ public class Robot{
                     prob = calcProbabilities(smallImage, col, rows);
                     //Imgproc.resize(transImage, m_Rgba, m_Rgba.size());
 
-					if( hasF && hasL && hasR ) {
+					if( evolver.started ) {
 						ann.setInput(prob);
 						ann.calculate();
 						double output[] = ann.getOutput();

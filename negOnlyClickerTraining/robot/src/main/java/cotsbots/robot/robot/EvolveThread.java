@@ -44,6 +44,7 @@ public class EvolveThread extends Thread implements TextToSpeech.OnInitListener{
 	public boolean doBP = false;
 	public int currentMaxBP;
 	public boolean bpReady = true;
+	public boolean started = false;
 	DecimalFormat df = new DecimalFormat("#.###");
 	
 	public EvolveThread(GANetTrainer t, RobotData r, Activity c, Robot robot){
@@ -87,7 +88,7 @@ public class EvolveThread extends Thread implements TextToSpeech.OnInitListener{
 	public void run(){
 		
 		
-		boolean started = false;
+
 		
 		Log.e("EvolveThread", "Max Gen: " + maxGen);
 		// start with a random ann
@@ -104,7 +105,7 @@ public class EvolveThread extends Thread implements TextToSpeech.OnInitListener{
 				// do evolution
 				//if(!myRobot.annCreated){
 				//Log.e("EvolveThread", "2");}
-				if( myRobot.numCase >= 4 && !started){
+				if( myRobot.numCase >= 3 && !started){
 					started = true;
 					tts.speak("Evolution Started", TextToSpeech.QUEUE_FLUSH, null);
 				}

@@ -7,10 +7,10 @@
       <module fileurl="file://$PROJECT_DIR$/communicationMessage/communicationMessage.iml" filepath="$PROJECT_DIR$/communicationMessage/communicationMessage.iml" />
       <module fileurl="file://$PROJECT_DIR$/cotsBotsBluetoothDiscovery/cotsBotsBluetoothDiscovery.iml" filepath="$PROJECT_DIR$/cotsBotsBluetoothDiscovery/cotsBotsBluetoothDiscovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/cotsBotsRobotController/cotsBotsRobotController.iml" filepath="$PROJECT_DIR$/cotsBotsRobotController/cotsBotsRobotController.iml" />
-      <module fileurl="file://$PROJECT_DIR$/negClickerTraining.iml" filepath="$PROJECT_DIR$/negClickerTraining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/negOnlyClickerTraining.iml" filepath="$PROJECT_DIR$/negOnlyClickerTraining.iml" />
       <module fileurl="file://$PROJECT_DIR$/neuroph/neuroph.iml" filepath="$PROJECT_DIR$/neuroph/neuroph.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVLibrary300/openCVLibrary300.iml" filepath="$PROJECT_DIR$/openCVLibrary300/openCVLibrary300.iml" />
-      <module fileurl="file://$PROJECT_DIR$/remoteneg/remoteneg.iml" filepath="$PROJECT_DIR$/remoteneg/remoteneg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/remotenegonly/remotenegonly.iml" filepath="$PROJECT_DIR$/remotenegonly/remotenegonly.iml" />
       <module fileurl="file://$PROJECT_DIR$/robot/robot.iml" filepath="$PROJECT_DIR$/robot/robot.iml" />
       <module fileurl="file://$PROJECT_DIR$/robotData/robotData.iml" filepath="$PROJECT_DIR$/robotData/robotData.iml" />
     </modules>
