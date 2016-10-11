@@ -162,32 +162,7 @@ public class Robot{
 		evolver.genCounter = 10;
 	}
 	
-	public void positiveClick(){
-		if ( currentState == state.ANNTRAINING ){
-			if(currentMove[0] ==1 ){
-				if( !hasL ) {
-					hasL = true;
-					numCase++;
-				}
-			}else if( currentMove[1] ==1 ){
-				if( !hasF ) {
-					hasF = true;
-					numCase++;
-				};
-			}else if( currentMove[2] == 1 ){
-				if( !hasR ) {
-					hasR = true;
-					numCase++;
-				}
-			}
-			ga.addTrainingCase( ga.generation, prob, currentMove, false);
-			evolver.genCounter = generationsBetweenTrainings;
-			trainingSet.addRow(prob, currentMove);
-			if( evolver.bpReady){
-				evolver.doBP = true;
-			}
-		}
-	}
+
 
 	public void negativeClick(){
 		if ( currentState == state.ANNTRAINING ){

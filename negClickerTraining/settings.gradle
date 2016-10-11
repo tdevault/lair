@@ -1,1 +1,0 @@
-include ':app', ':robotData', ':communicationMessage', ':cotsBotsRobotController', ':neuroph', ':openCVLibrary300', ':robot', ':cotsBotsBluetoothDiscovery', ':remoteneg', ':cOTSBotsClient'
